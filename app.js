@@ -4,9 +4,9 @@ const game = () => {
     let moves = 0;
 
 const playGame = () => {
-    const rockBtn = document.querySelector('.rock');
-    const paperBtn = document.querySelector('.paper');
-    const scissorBtn = document.querySelector('.scissors');
+    const rockBtn = document.querySelector('.button-53');
+    const paperBtn = document.querySelector('.button-54');
+    const scissorBtn = document.querySelector('.button-55');
     const playerOptions = [rockBtn, paperBtn, scissorBtn];
     const computerOptions = ['rock', 'paper', 'scissors'];
 
@@ -14,14 +14,14 @@ const playGame = () => {
         option.addEventListener('click', function(){
             const movesLeft = document.querySelector('.movesleft');
             moves++;
-            movesLeft.innerText = `You have ${5-moves} left`;
+            movesLeft.innerText = `You have ${10-moves} left`;
 
             const choiceNumber = Math.floor(Math.random()*3);
             const computerChoice = computerOptions[choiceNumber];
 
             winner(this.innerText,computerChoice)
 
-            if(moves == 5){
+            if(moves == 10){
                 gameOver(playerOptions,movesLeft);
             }
         })
