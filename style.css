@@ -15,6 +15,7 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Rubik Dirt', cursive;
   }
 
 
@@ -41,15 +42,16 @@ html {
   position: relative;
   text-align: center;
   text-decoration: none #000000 solid;
-  text-decoration-thickness: auto;
   width: 100%;
   max-width: 300px;
   position: relative;
   cursor: pointer;
   transform: rotate(-2deg);
-  user-select: none;
   -webkit-user-select: none;
+  user-select: none;
   touch-action: manipulation;
+  margin-right: 50px;
+  margin-top: 150px;
 }
 
 .button-53,
@@ -111,4 +113,45 @@ html {
 
 .options {
     display: flex;
+    
+}
+
+
+
+.title {
+  font-size: 55px;
+  justify-content: center;
+  margin-left: 40px;
+  margin-right: 30px
+}
+
+
+.movesleft {
+  border: 3px solid white;
+  display: flex;
+}
+
+.result {
+  border: 3px solid white;
+  display: flex;
+}
+
+.score {
+  border: 3px solid yellow;
+  display: flex;
+
+}
+
+.move {
+  border: 3px solid white;
+  display: flex;
+}
+
+.playerScore {
+  border: 3px solid blue;
+  padding-left: 20px;
+}
+
+.computerScore {
+  border: 2px solid red;
 }
