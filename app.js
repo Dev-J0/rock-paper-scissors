@@ -93,12 +93,6 @@ const gameOver = (playerOptions,movesLeft) => {
     else{
         result.innerText = "It's a tie"
     }
-    /*
-    reloadBtn.innerText = 'Restart';
-    reloadBtn.style.display = 'flex';
-    reloadBtn.addEventListener('click',() => {
-        window.location.reload();
-    }) */
 }
 
     playGame();

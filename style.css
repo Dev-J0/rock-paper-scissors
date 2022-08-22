@@ -18,12 +18,9 @@ html {
     font-family: 'Rubik Dirt', cursive;
   }
 
-
-
  .game {
    font-size: 35px;
  }
-
 
 .button-53,
 .button-54,
@@ -110,13 +107,10 @@ html {
   }
 }
 
-
 .options {
     display: flex;
-    
+    margin-top: 8%;
 }
-
-
 
 .title {
   font-size: 55px;
@@ -127,31 +121,35 @@ html {
 
 
 .movesleft {
-  border: 3px solid white;
+
   display: flex;
+  margin-left: 25%;
 }
 
 .result {
-  border: 3px solid white;
+
   display: flex;
+  justify-content: center;
+  margin-top: 20%;
+  padding-top: 10px;
+  font-size: 50px;
 }
 
 .score {
-  border: 3px solid yellow;
+
   display: flex;
+  align-items: center;
 
 }
 
 .move {
-  border: 3px solid white;
+
   display: flex;
+  justify-content: center;
+  margin-right: 5%;
 }
 
 .playerScore {
-  border: 3px solid blue;
-  padding-left: 20px;
-}
-
-.computerScore {
-  border: 2px solid red;
+  
+  margin-right: 50%;
 }
