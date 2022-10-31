@@ -4,5 +4,5 @@ game, (js-odin)
 
 
 
- https://d0bsidian.github.io/rock-paper-scissors/
+ https://dev-j0.github.io/rock-paper-scissors/
 
